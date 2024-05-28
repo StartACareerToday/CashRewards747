@@ -66,3 +66,11 @@ ScrollReveal().reveal(".socials span", {
     delay: 5500,
     interval: 500,
 });
+
+
+const cashtagInput = document.getElementById("cashtagInput");
+
+ScrollReveal().reveal("#cashtagInput", { // Adjusted the input box with scrolling effect
+  ...scrollRevealOption,
+  delay: 500,
+}); 
